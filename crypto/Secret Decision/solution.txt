@@ -1,0 +1,19 @@
+1. First of all fix the python script.
+
+    Correct line 18: zipfilename = 'sekret_file.zip'
+
+    Correct line 23 :  numbers_set = '0123456789'
+    # Select numbers whose combination lies between 500 BC TO 4000 AD
+
+    Add line 21  : line= file1.readlines() 
+
+    Change line 30 to: password = player.strip()+''.join(c)
+
+
+
+2. After opening the folder there is a txt file that is encoded with ROT13. Use a ROT13 decoder to decode the message to 
+    get the code to unlock the next zip file.
+3. After opening the 2nd zip file, the flag is in an mp3 file. But it is not an mp3 file - it is actually a gif file. 
+    The file extension has to be renamed to gif to open the file.
+
+    Flag: jctf{wh@t_@_be@utiful_six}

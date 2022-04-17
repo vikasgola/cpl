@@ -1,0 +1,23 @@
+Challenging Text
+
+
+
+There were many cases of cyber attacks in IPL in which Hackers try to change the scores/decisions
+which then gets broadcasted giving false results. 
+To avoid such cyber attacks, Akanksha has been appointed to sent the scores/decisoin in a secure way.
+
+SRH needs  5 runs in 1 ball. SRH player hit the last ball.
+Only Akanksha knows whether it was 4 or six.
+
+
+She sent the decision in a secret file that is password protected.
+
+The password is the combination of one of the names on the players_name with a year.
+
+    Format: "Player_NameYYYY"
+
+    Example: "Dhoni1936"
+YYYY will be from 500 BC to 4000 AD
+
+Fix the script to brute force the password.
+You are provided with a python script, players_list, and secret zip folder
