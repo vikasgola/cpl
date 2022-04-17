@@ -1,2 +1,9 @@
-# Crypto
-Problems and Writeups of Crypto challenges.
+# Dinner
+
+## Challenge Text ##
+
+It's dinner time. All the players went Virat's home. But Anushka(the chef) was missing. Virat decided to make dinner. He made lasagna dish for everyone.
+After eating the first bite Dhoni said ,"bW5neGp7Z2xtbW1fY2V2dl94eV94c192ZWxyaV9oaX0=" and  
+added that he can make 64 times more delicious than him.
+
+
