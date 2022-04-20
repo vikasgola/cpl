@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+    <script type="importmap">
+        {
+          "imports": {
+            "node-serialize": "https://ga.jspm.io/npm:node-serialize@0.0.4/lib/serialize.js"
+          }
+        }
+        </script>
+    <h1>
+        Scoreboard
+    </h1>
+
+    
+</head>
+<body>
+    <script type="module">
+        import * as nodeSerialize from "node-serialize";
+        console.log('hh')
+        window.getResult = async () => {
+            let req = {
+                matchCode : document.getElementById('matchcode').value
+            }
+            let queryString = nodeSerialize.serialize(req)
+
+            console.log(queryString)
+            let data = await fetch(`/result?queryString=${queryString}`)
+            let result = await data.json()
+            console.log(result)
+            document.getElementById('matchWinner').innerHTML = result.winner
+            document.getElementById('flag').innerHTML = result.flag
+        }
+        
+    </script>
+    <p>
+        Available matches
+        <br>
+        <li>
+            CSKVSKKR
+        </li>
+        <li>
+            RCBVSSRH
+        </li>
+    </p>
+    <input id="matchcode" type="text">
+    <button onclick="getResult()">Get Result</button>
+    <p id = "matchWinner">
+
+    </p>
+    <p id="flag">
+
+    </p>
+</body>
+</html>
