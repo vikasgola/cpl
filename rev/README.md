@@ -15,7 +15,14 @@ To Disable all protection Mechanisms:
 
 ## Scenario Descriptions
 
-**Scenario 1**: During an CPL Cricket Match is going on, generally speaking outsiders(i.e people other than team players and their staff)
+**Scenario 1 - OUTSIDE THE STADIUM**: Supporters watching a CPL Cricket Match get bored easily if a game is slow. Players need to Smash some sixes out of the boundary to make them excited again.
+Can you make your supporters feel excited again?
+
+WriteUp: Its a basic buffer overflow challenge to get the ctf players warmed up. If the person is able to overflow the variable `six`
+declared in the code and cause a bufferOverflow. He will get the flag. Exploit in `exploit.sh` inside the folder itself.
+
+
+**Scenario 2 - OUTSIDERS NOT ALLOWED**: During an CPL Cricket Match is going on, generally speaking outsiders(i.e people other than team players and their staff)
 are not allowed to enter the Playing ground while the game is still going on but sometimes some hardcore fans forcefully enter 
 the playing ground while the match is still going on. In similar fashion, there is a Outsider present in this challenge and 
 he has a special power. Can you find that special power and use it to your advantage?
