@@ -124,7 +124,7 @@ Basil Thampi
 Tilak Varma
 Sanjay Yadav
 Daniel Sams
-Jofra Archer
+Jofra Archer{"winner":"KKR","flag":"fff"}
 Tymal Mills
 Tim David
 Riley Meredith
