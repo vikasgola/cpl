@@ -1,0 +1,16 @@
+I have shifted each and every alphabet with corresponding prime number in increasing order.
+ex:
+primes=[2, 3, 5, 7, 11, 13, 17, 19, 23, 29,....
+Plain text: "abcde"
+Shift pattern:
+a ->2 ==c
+b ->3 ==e
+c ->5 ==h
+d ->7 ==k
+e ->11 ==p
+
+Therefore Cipher= "cehkp"
+
+Char like '!' , '{' , '}' , '_' remain unchanged
+
+Required flag is = "{Congrats!!!_You_are_our_lucky_winner}"

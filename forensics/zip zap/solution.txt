@@ -1,0 +1,7 @@
+from zipfile import ZipFile
+import os
+
+for i in range(2,15324):
+
+    with ZipFile(f"{{score}}{i}", 'w') as zipf:
+        zipf.write(os.path.join("/home/user/Desktop/cpl/",f"{{score}}{i-1}"), arcname=f"{{score}}{i}")
