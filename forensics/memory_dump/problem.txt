@@ -1,0 +1,7 @@
+An IPL player lost his locker key due to MEMORY loss.
+Help him in getting the code of the locker.
+Flag format : ijctfCPL{l0ck3r_c0d3_is_$} (Replace $ with the code you find).
+
+Hint : Sometimes identity of a running route is digestive in nature.
+
+
