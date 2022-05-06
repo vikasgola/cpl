@@ -1,0 +1,6 @@
+There is an IPL match going on and someone placed a bet with hIs friend.
+Can you guess the outcome of the bet  hidden in flag.wav ? 
+There are also some clues: clue1.wav & clue2.wav
+
+Hint : inSPECT clue1.wav 
+Hint :  Heard of SSTV ?
