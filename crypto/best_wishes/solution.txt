@@ -1,9 +1,12 @@
 Solution
 
     Open the sec.txt file - there will be a url encoded string.
-    Take the url encoded string and decode it - https://www.urldecoder.org/
+
 
     The decoded url string will output a base64 string, decode it - https://www.base64encode.org/
+
+    Take the url encoded string and decode it - https://www.urldecoder.org/
+
 
     The decoded base64 string will output a Caesar Cipher encrypted string, decrypt it - https://www.dcode.fr/caesar-cipher
 
@@ -11,6 +14,6 @@ Solution
         Command: steghide extract -sf Photo.jpg
     
     
-    Flag: ijctf{hum_hi_jeetenge}
+    Flag: ijctfCPL{hUm_h1_j1tenge}
 
     
