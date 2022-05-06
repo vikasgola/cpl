@@ -1,5 +1,6 @@
 
 
-Can you look out the following graph and tell what sk wants to convey ?
+The third umpire has given his decision in the form of a graph. Can you find his decision in this graph ?
+Flag format : flag{.......}
 
-https://www.desmos.com/calculator/etptj8xulj
+https://www.desmos.com/calculator/qchf3nrahl
